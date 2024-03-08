@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    background-image: url('../media/bg.png');
+}
+h1 {
+    margin: 0;
+}
+header {
+    margin: 0px;
+    color: beige;
+    background-color: rgb(28, 26, 26);
+    height: 80px;
+    padding: 30px;
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.card {
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.416);
+    height: 350px;
+    width: 255px;
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+    vertical-align: top;
+}
+
+.card:hover {
+    scale: 1.05;
+    transition: all ease 0.15s;
+}
+
+
+.card-thumbnail {
+    object-fit: cover;
+    height: 160px;
+    width: 255px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.card-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline 2px;
+}
+.card-description {
+    margin: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-buttons {
+    position: absolute;
+    bottom: 0;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+}
+
+.card-button {
+    font-size: 13px;
+    background-color: rgb(254, 254, 254);
+    border: solid white 1px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.card-button:hover {
+    border: solid black 1px;
+    scale: 1.05;
+    transition: all 0.1s ease;
+}
+.card-button:active {
+    scale: 1.1;
+}
+
+
+
+footer {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1c1a1a;
+    height: 50px;
+}
+
+footer h1 {
+    font-style: italic;
+    text-align: center;
+    color: beige;
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+
+
+
+/*Header by hari*/
+
+header {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header a{
+    text-decoration: none; 
+    color: #000;
+}
+header li{
+    list-style: none;
+}
+.header{
+    height:88px;
+    width:100%;
+    background-color: #1c1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img{
+    height: 90px;
+}
+.header .links{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+.header .links a{
+    margin:0px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.header .links a:hover {
+    scale: 1.1;
+    transition: all 0.15s ease;
+}
+
+.navbar-links{
+    height:87px;
+    background: #484747;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 25px 25px;
+}
+.navbar-links .first .nav-links{
+    display: flex;
+    align-items: center;
+}
+.navbar-links .first{
+    margin-left: 10px;
+}
+.navbar-links .first .nav-links .nav-link a{
+   margin: 0px 20px;
+   font-size: 18px;
+   color: #000;
+   background: #9DD5CA;
+   padding: 8px 15px;
+   border-radius: 70px 60px 40px 140px;
+}
+
+.nav-link:hover {
+    scale: 1.25;
+    transition: all 0.15s ease;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 20px;
+}
+.second .input-box{
+    position: relative;
+    margin-right: 70px;
+}
+.second .input-box input{
+    height: 39px;
+    border-radius: 50px;
+    background: #F0FFDE;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+.second .input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 20px;
+    color: #2b2a2aa1;
+}
+.hamburger .fa-solid{
+    font-size: 40px;
+    margin-right: 14px;
+}
+.hamburger .fa-solid:hover {
+    color: black;
+}
+
+
+.input-box input:hover {
+    border: solid black 1px;
+    scale: 1.05;
+    transition: all ease 0.15s;
+}
