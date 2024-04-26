@@ -4,9 +4,9 @@
 
 # The team members who contributed to this project:
 
-Afnaan
-Nikhil
-Hari Sai
-Muskaan
-Harshita
+- Afnaan
+- Nikhil
+- Hari Sai
+- Muskaan
+- Harshita
 
